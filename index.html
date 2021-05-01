@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav"> <!-- start NAV BAR -->
+        <div class="nav-left">
+            <h1>Dojo Weather</h1>
+        </div>
+        <ul class="nav-right">
+            <li onclick="cityAlert()" ><h3><a href="#">Burbank</a></h3></li>
+            <li onclick="cityAlert()" ><h3><a href="#">Chicago</a></h3></li>
+            <li onclick="cityAlert()" ><h3><a href="#">Dallas</a></h3></li>
+        </ul>
+    </div> <!-- end NAV BAR -->
+
+    <div class="sanJose">
+        <h2>San Jose</h2>
+        <div class="temp">
+            <p>show temperature in </p>
+            <select name="fc" id="fc">
+                <option value="f">f &#176;</option>
+                <option value="c">c &#176;</option>
+            </select>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="box">
+            <h2>Today</h2>
+            <img src="assets/some_rain.png" alt="rain">
+            <p>some rain</p>
+            <div class="sep">
+                <h4 class="red">75 &#176;</h4>
+                <h4 class="blue">65 &#176;</h4>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Tomorrow</h2>
+            <img src="assets/some_sun.png" alt="rain">
+            <p>some sun</p>
+            <div class="sep">
+                <h4 class="red">80 &#176;</h4>
+                <h4 class="blue">66 &#176;</h4>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Friday</h2>
+            <img src="assets/some_clouds.png" alt="rain">
+            <p>some clouds</p>
+            <div class="sep">
+                <h4 class="red">69 &#176;</h4>
+                <h4 class="blue">61 &#176;</h4>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Saturday</h2>
+            <img src="assets/some_sun.png" alt="rain">
+            <p>some sun</p>
+            <div class="sep">
+                <h4 class="red">78 &#176;</h4>
+                <h4 class="blue">70 &#176;</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="message">
+        <img src="assets/cookie.png" alt="Alert">
+        <p> <strong>Stop! Cookie Time!</strong><br><br> We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+        <button onclick="hideThis()">I Accept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

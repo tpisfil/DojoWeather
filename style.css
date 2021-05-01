@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+.nav{
+    display: flex;
+    background-color: #9FC5F8;
+    width: 1000px;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-right li{
+    margin: 10px;
+    list-style: none;
+    color: white;
+}
+
+.sanJose{
+    width: 1000px;
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.temp{
+    display: flex;
+    align-items: center;
+}
+
+#fc{
+    margin-left: 10px;
+}
+
+.main{
+    width: 1000px;
+    /* height: 300px; */
+    margin: auto;
+    display: flex;
+}
+
+.box{
+    height: 325px;
+    width: 200px;
+    background-color: lightgray;
+    margin: 25px;
+    text-align: center;
+}
+
+.box h2{
+    margin-top: 20px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+
+.sep{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+h4{
+    font-size: 24px;
+}
+
+#message{
+    height: 150px;
+    width: 1000px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    /* left: 220px;  */
+    bottom: 0px;
+    margin: auto;
+}
+
+#message img{
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+#message p{
+    width: 70%;
+    font-size: 22px;
+}
+
+#message button{
+    background-color: #9FC5F8;
+    height: 50px;
+    width: 100px;
+    border: 2px black solid;
+    box-shadow: 3px 3px 3px black;
+    margin-right: 25px;
+    color: white;
+    font-size: 18px;
+}
